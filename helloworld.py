@@ -1,10 +1,17 @@
-# replace the contents of this comment with your full name
+# Anadia Lalta
+language = 'english'
+Spanish = 'Hola a todos'
+Italian = 'Ciao a tutti'
+Portuguese = 'Ola a todos'
 
-# write a program that:
-# 1. greets the user in English
-# 2. asks the user to choose from 1 of 3 spoken languages (pick your favorite languages!) 
-# 3. displays the greeting in the chosen language
-# 4. exits
-
-# make sure that your code contains comments explaining your logic!
-
+print('Hello everyone!')
+print(' Choose a language and I will greet you in that language!')  #ask for the language they want me to greet them in 
+print('Spanish')   
+print('Italian')    
+print('Portuguese') 
+if language == 'Spanish' :      #translates "Hello everyone" to Spanish
+    print('Hola a todos')
+elif language == 'Italian' :         #translates "Hello everyone" to Italian
+    print('Ciao a tutti')
+elif language == 'Portuguese' :       #translates "Hello everyone to Portuguese
+     print('Ola a todos')
